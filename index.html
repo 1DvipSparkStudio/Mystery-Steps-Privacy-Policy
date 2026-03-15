@@ -5,79 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - 1DvipSparkStudio</title>
     <style>
-        body {
-            font-family: 'Georgia', serif;
-            background-color: #1e1e2e;
-            color: #e6e6e6;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-        }
-        .container {
-            max-width: 850px;
-            background: rgba(30, 30, 46, 0.98);
-            padding: 40px;
-            border: 2px solid #d4af37;
-            border-radius: 15px;
-            box-shadow: 0 0 30px rgba(0,0,0,0.7);
-        }
-        .lang-nav {
-            text-align: right;
-            margin-bottom: 20px;
-            border-bottom: 1px solid #3e3e5e;
-            padding-bottom: 10px;
-        }
-        .lang-nav a {
-            color: #d4af37;
-            text-decoration: none;
-            font-weight: bold;
-            margin-left: 15px;
-        }
+        body { font-family: 'Georgia', serif; background-color: #1e1e2e; color: #e6e6e6; padding: 20px; display: flex; justify-content: center; }
+        .container { max-width: 850px; background: rgba(30, 30, 46, 0.98); padding: 40px; border: 2px solid #d4af37; border-radius: 15px; box-shadow: 0 0 30px rgba(0,0,0,0.7); }
+        .lang-nav { text-align: right; margin-bottom: 20px; border-bottom: 1px solid #3e3e5e; padding-bottom: 10px; }
+        .lang-nav a { color: #d4af37; text-decoration: none; font-weight: bold; margin-left: 15px; }
         h1 { color: #d4af37; text-align: center; font-size: 2em; }
         h2 { color: #d4af37; border-left: 4px solid #d4af37; padding-left: 15px; margin-top: 35px; font-size: 1.3em; }
         p, li { line-height: 1.7; color: #cccccc; font-size: 1.05em; }
-        strong { color: #ffffff; }
-        .email { color: #d4af37; font-weight: bold; font-family: monospace; }
-        .footer { margin-top: 50px; text-align: center; font-size: 0.9em; color: #666; border-top: 1px solid #3e3e5e; padding-top: 20px; }
+        .email { color: #d4af37; font-weight: bold; }
         hr { border: 0; border-top: 1px dashed #3e3e5e; margin: 40px 0; }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="lang-nav">
-            <a href="#ru">РУССКИЙ</a>
-            <a href="#en">ENGLISH</a>
-        </div>
+        <div class="lang-nav"><a href="#ru">RU</a> <a href="#en">EN</a></div>
 
         <div id="ru">
             <h1>Политика конфиденциальности</h1>
             <p><strong>Дата вступления в силу:</strong> 15 марта 2026 г.</p>
-            <p>Студия <strong>1DvipSparkStudio</strong> («мы», «наш») ценит ваше доверие. Данная Политика объясняет, как мы обрабатываем данные в наших мобильных приложениях.</p>
+            <p>Студия <strong>1DvipSparkStudio</strong> («мы», «наш») ценит вашу конфиденциальность. Данная политика описывает, как мы обрабатываем данные в приложении <strong>Mystery Steps</strong>.</p>
 
             <h2>1. Сбор данных и Идентификаторы</h2>
-            <p>Мы не собираем персональную информацию (имена, адреса, телефоны). Для аналитики и рекламы используются анонимные технические идентификаторы:</p>
+            <p>Мы не собираем персональные данные. Для работы аналитики и рекламы используются анонимные технические ID:</p>
             <ul>
-                <li><strong>GAID / OAID:</strong> Рекламные ID для Google и Huawei.</li>
-                <li><strong>Технические данные:</strong> Модель устройства, версия ОС, язык системы.</li>
+                <li><strong>OAID (Huawei):</strong> Для устройств без сервисов Google.</li>
+                <li><strong>GAID (Google):</strong> Для устройств Android с сервисами Google.</li>
+                <li><strong>Технические данные:</strong> Модель устройства, версия ОС, язык.</li>
             </ul>
 
-            <h2>2. Монетизация и Покупки</h2>
-            <p>В приложении доступна только одна покупка — <strong>«Отключение рекламы» (No Ads)</strong>. Все транзакции обрабатываются магазином приложений (Huawei AppGallery и др.). Мы не получаем и не храним данные ваших банковских карт.</p>
+            <h2>2. Оплата и Покупки (RuStore / AppGallery)</h2>
+            <p>Единственная покупка в приложении — <strong>«Отключение рекламы»</strong>. Обработка платежей производится исключительно через <strong>RuStore Billing</strong> или <strong>Huawei IAP</strong>. Мы не имеем доступа к вашим банковским картам.</p>
 
-            <h2>3. Сторонние SDK и передача данных</h2>
-            <p>Мы сотрудничаем со сторонними сервисами, которые могут обрабатывать обезличенные данные на серверах в РФ, КНР и США:</p>
-            <ul>
-                <li><strong>Yandex Mobile Ads:</strong> Предоставляет рекламу. Вы можете ограничить персонализацию в настройках вашего устройства.</li>
-                <li><strong>Huawei HMS Core:</strong> Обеспечивает работу функции покупок.</li>
-                <li><strong>Unity Ads & Analytics:</strong> Помогает нам улучшать игровой процесс.</li>
-            </ul>
+            <h2>3. Сторонние SDK</h2>
+            <p>Мы используем SDK партнеров, которые могут обрабатывать обезличенные данные: <strong>Yandex Mobile Ads</strong> (реклама), <strong>HMS Core</strong> (сервисы Huawei), <strong>RuStore SDK</strong> (платежи и обновления), <strong>Unity Analytics</strong>.</p>
 
-            <h2>4. Сроки хранения и безопасность</h2>
-            <p>Анонимные данные хранятся до момента удаления приложения или получения запроса на их удаление. Мы принимаем все необходимые меры для защиты информации от несанкционированного доступа.</p>
-
-            <h2>5. Удаление данных (Право на забвение)</h2>
-            <p>Вы имеете право запросить полное удаление данных, связанных с вашим устройством. Для этого напишите нам на почту: <span class="email">VipDpo@outlook.com</span> с темой "Delete My Data". Срок обработки — до 30 дней.</p>
+            <h2>4. Удаление данных</h2>
+            <p>Вы имеете право на удаление данных. Для удаления вашего прогресса и связанных технических ID напишите нам: <span class="email">VipDpo@outlook.com</span>. Срок обработки — до 30 дней.</p>
         </div>
 
         <hr>
@@ -85,35 +48,19 @@
         <div id="en">
             <h1>Privacy Policy</h1>
             <p><strong>Effective Date:</strong> March 15, 2026</p>
-            <p><strong>1DvipSparkStudio</strong> ("we", "us", "our") values your trust. This Privacy Policy explains how we handle data within our mobile applications.</p>
+            <p><strong>1DvipSparkStudio</strong> ("we", "us") respects your privacy. This policy describes data handling in the <strong>Mystery Steps</strong> app.</p>
 
-            <h2>1. Data Collection and Identifiers</h2>
-            <p>We do not collect personal information (names, addresses, phone numbers). We use anonymous technical identifiers for analytics and advertising:</p>
-            <ul>
-                <li><strong>GAID / OAID:</strong> Advertising IDs for Google and Huawei devices.</li>
-                <li><strong>Technical Data:</strong> Device model, OS version, system language.</li>
-            </ul>
+            <h2>1. Data Collection</h2>
+            <p>We do not collect personal data. Anonymous technical IDs are used for analytics and ads: <strong>OAID</strong> (Huawei), <strong>GAID</strong> (Google), device model, and OS version.</p>
 
-            <h2>2. Monetization and Purchases</h2>
-            <p>The only available in-app purchase is <strong>"Remove Ads"</strong>. All transactions are processed by the respective app store (Huawei AppGallery, etc.). We do not have access to your financial or credit card information.</p>
+            <h2>2. Payments (RuStore / AppGallery)</h2>
+            <p>The only purchase is <strong>"Remove Ads"</strong>. Transactions are handled by <strong>RuStore Billing</strong> or <strong>Huawei IAP</strong>. We do not store or access your payment card info.</p>
 
-            <h2>3. Third-party SDKs and Data Transfer</h2>
-            <p>We partner with third-party services that may process anonymous data on servers in the RF, China, and the USA:</p>
-            <ul>
-                <li><strong>Yandex Mobile Ads:</strong> Provides advertising services. You can limit ad personalization in your device settings.</li>
-                <li><strong>Huawei HMS Core:</strong> Ensures the functionality of in-app purchases.</li>
-                <li><strong>Unity Ads & Analytics:</strong> Helps us optimize the gaming experience.</li>
-            </ul>
+            <h2>3. Third-party SDKs</h2>
+            <p>We use: <strong>Yandex Mobile Ads</strong>, <strong>HMS Core</strong>, <strong>RuStore SDK</strong>, and <strong>Unity Analytics</strong>. They process anonymous technical information.</p>
 
-            <h2>4. Retention and Security</h2>
-            <p>Anonymous data is stored until the application is deleted or a deletion request is received. We implement standard security measures to protect your information.</p>
-
-            <h2>5. Data Deletion Rights</h2>
-            <p>You have the right to request the complete deletion of data associated with your device. To do so, contact us at: <span class="email">VipDpo@outlook.com</span> with the subject "Delete My Data".</p>
-        </div>
-
-        <div class="footer">
-            &copy; 2026 1DvipSparkStudio. All Rights Reserved.
+            <h2>4. Data Deletion</h2>
+            <p>You have the right to request data deletion. To delete your progress and technical IDs, contact us: <span class="email">VipDpo@outlook.com</span>.</p>
         </div>
     </div>
 </body>
